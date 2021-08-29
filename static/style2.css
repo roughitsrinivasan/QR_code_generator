@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(to right, #670d10 , #092756);
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 43.5%;
+    width: 15%;
+    border-radius: 15px;
+}
+  
+.btn1 {
+    background-color: DodgerBlue;
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 46%;
+    width: 10%;
+    border-radius: 15px;
+}
+    
+.p1{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    transform: translateY(-50%);
+    left: 40.7%;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+    
+.p2{
+    position: absolute;
+    top: 42.5%;
+    width: 100%;
+    transform: translateY(-50%);
+    left: 42.5%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+    
+    
+.btn:hover .btn1:hover{
+    background-color: RoyalBlue;
+}

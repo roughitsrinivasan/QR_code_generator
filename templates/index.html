@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <title>QR Code Generater</title>
 
+  <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
 </head>
 
 <body>
  <div class="login">
 	<h1>QR code Generator</h1>
+
     <form action = "/converted" method="post">
     	<input type="text" name="test" placeholder="Enter Word" required="required" />
         <button type="submit" class="btnGenerate">Generate QR</button>
