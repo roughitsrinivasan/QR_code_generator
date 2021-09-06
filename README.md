@@ -9,6 +9,7 @@ modules to be installed:
 
     *flask   
     *pyqrcode
+    *pypng
 
 import modules:
     
